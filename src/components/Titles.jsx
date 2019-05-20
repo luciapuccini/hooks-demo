@@ -13,14 +13,14 @@ const CardCustom = (props) => {
     <Fragment>
       <Container>
         <Card>
-          First Level
+          First Level - UseState
         </Card>
       </Container>
       {
         level > 0 &&
         <Container>
           <Card>
-            Second Level
+            Second Level - UseReducer
           </Card>
         </Container>
       }
@@ -28,7 +28,7 @@ const CardCustom = (props) => {
         level > 1 &&
         <Container>
           <Card>
-            Third Level
+            Third Level - UseEffect
           </Card>
         </Container>
       }

@@ -5,16 +5,15 @@ import Card from '@material-ui/core/Card';
 
 const styles = {
   card: {
-    minWidth: 275,
+    minWidth: 250,
     padding: 30,
   },
 };
 
 const CardCustom = (props) => {
   const { classes, children } = props;
-
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} >
       {children}
     </Card>
   );

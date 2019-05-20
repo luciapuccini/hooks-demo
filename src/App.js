@@ -33,12 +33,17 @@ const App = (props) => {
           className={classes.gridContainer}
         >
           <Grid item md={3}>
-            <Titles level={level}/>
+          <h2 style={{color: '#84EEFF'}}>Hook Type</h2>
+            <Titles 
+            level={level}
+            />
           </Grid>
           <Grid item md={3}>
+            <h2 style={{color: '#84EEFF'}}>Without Hooks</h2>
             <WithoutHooks level={level}/>
           </Grid>
           <Grid item md={3}>
+          <h2 style={{color: '#84EEFF'}}>With Hooks</h2>
             <WithHooks level={level}/>
           </Grid>
         </Grid>
