@@ -6,7 +6,7 @@ import Card from '@material-ui/core/Card';
 const styles = {
   card: {
     minWidth: 250,
-    padding: 30,
+    padding: 15,
   },
 };
 
